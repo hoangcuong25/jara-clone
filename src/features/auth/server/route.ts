@@ -1,4 +1,3 @@
-import { date, z } from 'zod'
 import { Hono } from 'hono'
 import { zValidator } from '@hono/zod-validator'
 import { loginSchema, registerSchema } from '../schema'
